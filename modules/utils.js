@@ -1,8 +1,8 @@
 function capitilize (str) {
     return str
     .toLowerCase()
-    .split(' ')//split method returns a string
-    .map((word)=> word[0].toUpperCase() + word.slice(1)) //you can use .substring() in place of splice
+    .split(' ')//split method returns an array
+    .map((word)=> word[0].toUpperCase() + word.slice(1)) //you can use .substring() in place of slice
     .join(' ')
 }
 
